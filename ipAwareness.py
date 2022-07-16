@@ -231,7 +231,5 @@ class IpGeoManager:
         _list.append(displayText)
         subprocess.run(_list)
 
-#ipGeoManager = IpGeoManager() #("432fda484a774610b95ec29c0aa3ed94")
-
 if __name__ == "__main__":
     IpGeoManager().whileLoopTerminal()
